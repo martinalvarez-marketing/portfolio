@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Case Study: Google Business Profile Audit for a Local HVAC Company | Martin Alvarez</title>
+<meta name="description" content="Concept project: a Google Business Profile audit for a small, owner-operated HVAC company in south metro Atlanta.">
+<style>
+  :root {
+    --bg: #f6f8f8;
+    --surface: #ffffff;
+    --text: #1f2a2e;
+    --muted: #56656b;
+    --accent: #2f6f6a;
+    --accent-soft: #e3efed;
+    --border: #dde5e4;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #141b1d;
+      --surface: #1c2528;
+      --text: #e4ebec;
+      --muted: #a2b1b5;
+      --accent: #7cc3ba;
+      --accent-soft: #223634;
+      --border: #2c3a3d;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #141b1d;
+    --surface: #1c2528;
+    --text: #e4ebec;
+    --muted: #a2b1b5;
+    --accent: #7cc3ba;
+    --accent-soft: #223634;
+    --border: #2c3a3d;
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.0625rem;
+    line-height: 1.65;
+  }
+  a { color: var(--accent); }
+  a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  .wrap { max-width: 720px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+  h1, h2 { text-wrap: balance; }
+  .topbar { border-bottom: 1px solid var(--border); background: var(--surface); }
+  .topbar .wrap { display: flex; justify-content: space-between; align-items: center; gap: 12px; padding-top: 14px; padding-bottom: 14px; }
+  .topbar a { text-decoration: none; font-weight: 600; }
+  .topbar .name { color: var(--text); }
+  main { padding: 40px 0 56px; }
+  h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.2; margin: 0 0 20px; letter-spacing: -0.01em; }
+  h2 { font-size: 1.3rem; line-height: 1.3; margin: 40px 0 12px; padding-top: 24px; border-top: 1px solid var(--border); }
+  p { margin: 0 0 16px; }
+  ul, ol { margin: 0 0 16px; padding-left: 1.4em; }
+  li { margin-bottom: 8px; }
+  li::marker { color: var(--accent); }
+  .notice {
+    background: var(--accent-soft);
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+    padding: 14px 16px;
+    margin: 0 0 8px;
+  }
+  .notice p { margin: 0; }
+  .label { font-weight: 600; }
+  blockquote {
+    margin: 0 0 16px;
+    padding: 18px 20px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-left: 4px solid var(--accent);
+    border-radius: 6px;
+  }
+  blockquote p { margin: 0; }
+  footer { border-top: 1px solid var(--border); padding: 24px 0 40px; color: var(--muted); font-size: 0.95rem; }
+</style>
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap">
+    <a class="name" href="index.html">Martin Alvarez</a>
+    <a href="index.html">&larr; All work</a>
+  </div>
+</header>
+
+<main>
+  <article class="wrap">
+    <h1>Case Study: Google Business Profile Audit for a Local HVAC Company</h1>
+
+    <div class="notice">
+      <p><strong>Concept project.</strong> I wasn't hired by this business. I used public information only and removed every identifying detail.</p>
+    </div>
+
+    <h2>1. The Business and the Problem</h2>
+    <p>The client is a small, owner-operated HVAC company in south metro Atlanta that offers 24/7 mobile repair service. It has a perfect Google rating but no website, so its Google Business Profile brings in most customers. The profile had gaps that could cost calls, and one that could risk the listing.</p>
+
+    <h2>2. My Approach</h2>
+    <ul>
+      <li><strong>Customer review research.</strong> I organized the company's reviews and two competitors', then counted the most common themes so the copy would use customers' words.</li>
+      <li><strong>Listing check.</strong> I reviewed every profile section.</li>
+      <li><strong>Fact vs. guess.</strong> I labeled anything unconfirmed as a guess and kept it out of the finished copy.</li>
+      <li><strong>Claude Code.</strong> I used it to clean up reviews, count themes, check every claim against the sources and stay under Google's character limit. I made the calls on priorities and wording.</li>
+    </ul>
+
+    <h2>3. Key Findings</h2>
+    <ul>
+      <li><strong>No business description.</strong></li>
+      <li><strong>A street address that looked residential</strong> was shown, though the business works only at customers' locations. Google's guidelines say to hide it and set a service area.</li>
+      <li><strong>Emergency repair and ductless mini-split installation weren't listed</strong>, though 24/7 service is the main strength and photos show many mini-split installs.</li>
+      <li><strong>Strong but few reviews</strong>, and very few mentioned heating.</li>
+      <li><strong>Owner replies were all in one language</strong>, even for reviews written in another.</li>
+    </ul>
+
+    <h2>4. Recommendations, in Priority Order</h2>
+    <ol>
+      <li>Hide the address and set a service area.</li>
+      <li>Add a business description.</li>
+      <li>Add emergency repair, mini-split installation and other confirmed services.</li>
+      <li>Ask every customer for a review the same day, in their language.</li>
+      <li>Reply to each review in its language.</li>
+      <li>Check that the listed price range matches a typical job.</li>
+      <li>Post a recent job photo weekly.</li>
+      <li>Add a website link once one exists.</li>
+    </ol>
+
+    <h2>5. Before and After</h2>
+    <p><span class="label">Before:</span> No description.</p>
+    <p><span class="label">After:</span></p>
+    <blockquote>
+      <p>When your AC or heat is giving you issues, you don't have to wait until morning for help. We offer 24/7 mobile service for homes and light commercial buildings across south metro Atlanta. Our focus is troubleshooting and repair: we find the real problem and explain it in plain words, so you can decide what to do. We also install heating and AC systems and ductless mini-splits, and offer maintenance and duct cleaning. Customers describe us as punctual, professional and honest, with clean work and fair prices. Heat or AC not working? Call us any time, day or night.</p>
+    </blockquote>
+
+    <h2>6. What I'd Measure</h2>
+    <p>If the owner made these changes:</p>
+    <ul>
+      <li>Calls from the profile</li>
+      <li>How often the profile appears in searches and on maps</li>
+      <li>New reviews per month, and how many mention heating</li>
+      <li>Whether the listing stays active after the address change</li>
+    </ul>
+    <p>The owner hasn't made these changes, so there are no results yet.</p>
+  </article>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a href="index.html">&larr; Back to portfolio</a>
+  </div>
+</footer>
+</body>
+</html>
